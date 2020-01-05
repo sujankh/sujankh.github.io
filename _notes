@@ -4,4 +4,6 @@ jekyll serve --port 4040
 
 Adding github-pages:
 bundle update
+# Use bundle update github-pages if you update github-pages version
 bundle exec jekyll serve --port 4040
+
