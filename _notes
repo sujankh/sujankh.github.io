@@ -1,0 +1,7 @@
+jekyll new <site>
+jekyll serve --port 4040
+
+
+Adding github-pages:
+bundle update
+bundle exec jekyll serve --port 4040
