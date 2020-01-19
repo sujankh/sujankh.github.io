@@ -7,6 +7,7 @@ tags:
   - linux kernel
   - emacs
   - ycmd
+#toc: true
 ---
 
 This document will go through my setup for linux kernel code navigation using YCMD for Emacs.

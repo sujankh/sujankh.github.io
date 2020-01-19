@@ -26,8 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sujankh
 github_username:  sujankh
-minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast
 search: true
+
+
+# TODO: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#algolia
+#search_provider: algolia
+
+# TODO: Google analytics
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings
 
 include:
   - _pages
@@ -72,6 +79,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sujankh"
 
+# For recent posts in the home page
+paginate: 5
+paginate_path: /page:num/
+
 defaults:
   # _posts
   - scope:
@@ -79,9 +90,10 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
   # _pages
