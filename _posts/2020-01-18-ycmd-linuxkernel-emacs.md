@@ -1,10 +1,14 @@
 ---
-layout: default
+title: "Setup ycmd for Linux Kernel using Emacs"
+date: 2020-01-18
+categories:
+  - blog
+tags:
+  - linux kernel
+  - emacs
+  - ycmd
 ---
 
-# emacs-ycmd for Linux Kernel
-
----
 This document will go through my setup for linux kernel code navigation using YCMD for Emacs.
 
 ## Building YCMD and fetching its dependencies
