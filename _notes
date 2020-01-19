@@ -1,9 +1,27 @@
-jekyll new <site>
+Install jekyll/bundler:
+Follow jekyll's website to install
+gem install jekyll bundler (install locally)
+Needs ruby
+
+Github.io documentation: https://help.github.com/en/github/working-with-github-pages/
+Local development is a must:https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
+
+To setup a new site: jekyll new <site>
+
+index.md will show up as the home page. Note that you can symlunk index.md -> README.md for nice comatibility with github
+Jekyll automatically updates pages when you edit it, you don't have to re-launch most of the times.
+_site directory contains the generated site
+_config.yml->baseurl: "" is important # the subpath of your site, e.g. /blog
+Some themes: https://github.com/mmistakes/minimal-mistakes
+or jekyll-theme-minimal: https://github.com/pages-themes/minimal
+
+
+To run:
 jekyll serve --port 4040
 
-
+OR
+If you play around with Gemfile follow instructions in Gemfile
 Adding github-pages:
-bundle update
-# Use bundle update github-pages if you update github-pages version
+(Optionally): bundle update # Use `bundle update github-pages` if you update github-pages version
 bundle exec jekyll serve --port 4040
 
