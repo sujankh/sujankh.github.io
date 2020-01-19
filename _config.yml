@@ -28,9 +28,13 @@ twitter_username: sujankh
 github_username:  sujankh
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+# remote theme needs the remote-theme plugin
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
