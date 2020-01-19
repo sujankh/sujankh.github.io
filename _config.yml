@@ -33,7 +33,7 @@ github_username:  sujankh
 remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 plugins:
   - jekyll-include-cache
-  - jekyll-remote-theme
+  #- jekyll-remote-theme
 
 
 # Exclude from processing.
